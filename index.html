@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+    <main>
+        <section class="container mx-auto min-h-20 flex justify-center items-center bg-slate-600">
+            <input id="search-fild" type="text" placeholder="search..." class="input input-bordered w-full max-w-xs" />
+            <button class="btn btn-primary ml-3" onclick="handleSearch()">Primary</button>
+        </section>
+        <section>
+            <div id="spiiner-cont" class="text-center my-32 hidden">
+                <span id="spiiner" class="loading loading-spinner loading-lg"></span>
+            </div>
+            
+
+
+            <div id="phone-container" class="p-10 min-h-10 container flex flex-wrap md:col-span-4 col-span-3 mx-auto  justify-start items-center gap-20">
+               
+               
+            </div>
+        </section>
+        <div id="show-all-cont" class=" container mx-auto p-10">
+            <button id="show-all-btn"  class="btn btn-primary hidden" >Show All</button>
+        </div>
+    </main>
+<div class="">
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
